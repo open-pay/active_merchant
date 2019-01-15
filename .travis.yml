@@ -3,17 +3,15 @@ script: "bundle exec rake test:units TEST=test/remote/gateways/remote_openpay_te
 sudo: false
 
 rvm:
-- "2.2"
-- "2.1"
-- "2.0"
+- "2.5"
+- "2.4"
+- "2.3"
 
 gemfile:
-- Gemfile.rails32
 - Gemfile.rails40
 - Gemfile.rails41
 - Gemfile.rails42
 
 notifications:
   email:
-  - payments-dev@shopify.com
-  - nathaniel@talbott.ws
+  - developers@openpay.mx
