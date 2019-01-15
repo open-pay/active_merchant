@@ -1,5 +1,5 @@
 language: ruby
-script: "bundle exec rake test:units"
+script: "bundle exec rake test:units TEST=test/remote/gateways/remote_openpay_test.rb --trace"
 sudo: false
 
 rvm:
