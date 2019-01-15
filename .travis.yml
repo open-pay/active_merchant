@@ -3,7 +3,6 @@ script: "bundle exec rake test:units TEST=test/remote/gateways/remote_openpay_te
 sudo: false
 
 rvm:
-- "2.3"
 - "2.2"
 
 gemfile:
