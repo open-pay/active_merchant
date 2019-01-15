@@ -4,10 +4,14 @@ sudo: false
 
 rvm:
 - "2.2"
+- "2.1"
+- "2.0"
 
 gemfile:
-- Gemfile.rails42
+- Gemfile.rails32
+- Gemfile.rails40
 - Gemfile.rails41
+- Gemfile.rails42
 
 notifications:
   email:
