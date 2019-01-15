@@ -5,10 +5,8 @@ sudo: false
 rvm:
 - "2.3"
 - "2.2"
-- "2.1"
 
 gemfile:
-- Gemfile.rails40
 - Gemfile.rails41
 - Gemfile.rails42
 
